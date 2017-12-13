@@ -1,0 +1,10 @@
+pip install praw
+
+import praw
+
+reddit = praw.Reddit(client_id='rjzW-PmPp04b6g',
+                     client_secret='...',
+                     password='...',
+                     user_agent='Deep Search by /u/dblock1111',
+                     username='dblock1111')
+                    
