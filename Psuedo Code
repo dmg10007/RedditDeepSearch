@@ -1,0 +1,30 @@
+import reddit api (praw)
+
+obtain reddit token:
+    reddit token information
+
+
+accept input (date, date range, day/month/year, month/year, year)
+accept input (specific subreddit or r/all)
+accept input (post type: submission, comment, reply)
+    more choices (img post only, text post only, both (default), allow NSFW content)
+accept input (sort by: Top/Newest/Oldest/Controversial)
+
+
+retrieve posts from reddit.com that are tagged with the date from input
+    if input specific subreddit
+        only retrieve from that subreddit
+    else
+        retireve from r/all
+    if input specific post type
+        only retrieve that post type
+    else
+      retrieve all posts
+
+sort posts by selection (Top/New/Old/Controversial)
+    if input speciic sort type
+        sort retrieved posts by input
+    else
+        sort by top as default
+
+display all retrieved posts, sorted according to input
